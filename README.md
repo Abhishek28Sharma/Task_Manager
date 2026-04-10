@@ -1,16 +1,120 @@
-# React + Vite
+# 🖥️ Task Manager - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <b>A modern, fast, and responsive Task Manager built with React + Vite</b>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Vite-Fast-purple?logo=vite" />
+  <img src="https://img.shields.io/badge/TailwindCSS-Utility--First-blue?logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Axios-HTTP-green" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Frontend:** https://taskgl.netlify.app/  
+🔗 **Backend API:** https://your-backend-link.com/api/tasks
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Features
+
+- ✅ Full CRUD operations
+- 🔍 Task filtering (All / Completed / Incomplete)
+- ⚡ Real-time UI updates
+- 🛡️ Form validation
+- 🕒 Timestamps for tracking
+- 🔔 Smooth UX with loaders & alerts
+
+---
+
+## 🏗️ Project Structure
+
+```
+frontend/
+│
+├── src/
+│   ├── components/
+│   │   ├── TaskManager.jsx
+│   │   ├── TaskForm.jsx
+│   │   └── TaskItem.jsx
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public/
+├── .env
+└── package.json
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology   | Purpose            |
+| ------------ | ------------------ |
+| React + Vite | Frontend Framework |
+| Tailwind CSS | Styling            |
+| Axios        | API Requests       |
+| Lucide React | Icons              |
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/Abhishek28Sharma/Task_Manager.git
+cd frontend
+npm install
+```
+
+### 🔑 Environment Variables
+
+Create `.env` file:
+
+```env
+VITE_API_URL=<Backend_URL>/api/tasks
+```
+
+### ▶️ Run App
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧠 Design Decisions
+
+- 🔄 Client-side filtering for fast performance
+- 🔗 Simple prop drilling (scalable with Context/Redux later)
+- 🎨 Tailwind for rapid UI development
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+```bash
+fork → clone → create branch → commit → push → PR
+```
+
+---
+
+## 👨‍💻 Author
+
+**Abhishek Kumar**
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+⭐ Star the repo  
+🍴 Fork it  
+📢 Share with others
