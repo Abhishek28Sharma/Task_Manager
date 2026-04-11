@@ -95,6 +95,16 @@ npm run dev
 
 ---
 
+## Design Assumptions & Trade-offs
+
+- Derived State: Filtering is performed on the client-side list rather than making a new API call for every filter change. This reduces server load and provides instant UI transitions.
+
+- Prop Drilling: For this specific scope, props were passed directly from the TaskManager to children. For a larger app, a Context API or Redux would be used.
+
+- Tailwind for Speed: Chosen to prioritize "Functionality over Visual Design" while still maintaining a polished appearance.
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome!
